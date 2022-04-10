@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * description: springcloud 单个微服务系统搭建
+ * description: springcloud 单个微服务系统搭建, 支付模块
  * author: xhs 
  * date: 2022/4/3
  * version: 

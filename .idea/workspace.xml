@@ -5,9 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="177b6829-85e0-45fd-b013-9525729f57be" name="Changes" comment="springcloud父工程环境搭建，包含基本pom">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/java/com/xxx/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/java/com/xxx/springcloud/dao/PaymentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/java/com/xxx/springcloud/entities/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/java/com/xxx/springcloud/entities/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/java/com/xxx/springcloud/service/Impl/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/java/com/xxx/springcloud/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/java/com/xxx/springcloud/PaymentMain8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/java/com/xxx/springcloud/PaymentMain8001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_provider_payment8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_payment8001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_provider_payment8001/target/classes/com/xxx/springcloud/PaymentMain8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_payment8001/target/classes/com/xxx/springcloud/PaymentMain8001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_provider_payment8001/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_provider_payment8001/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_provider_payment8001/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,9 +29,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -56,16 +75,40 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Blog_parents05" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RunManager">
+    <configuration name="PaymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud_provider_payment8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xxx.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xxx.springcloud.PaymentMain8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.PaymentMain8001" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -78,7 +121,8 @@
       <workItem from="1648952235199" duration="5382000" />
       <workItem from="1649238074906" duration="33000" />
       <workItem from="1649475005518" duration="249000" />
-      <workItem from="1649475277594" duration="1293000" />
+      <workItem from="1649475277594" duration="1966000" />
+      <workItem from="1649556067509" duration="8716000" />
     </task>
     <task id="LOCAL-00001" summary="springcloud父工程环境搭建，包含基本pom">
       <created>1648954378381</created>
@@ -87,7 +131,21 @@
       <option name="project" value="LOCAL" />
       <updated>1648954378381</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="springcloud父工程环境搭建，包含基本pom">
+      <created>1649502223372</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649502223372</updated>
+    </task>
+    <task id="LOCAL-00003" summary="springcloud父工程环境搭建，包含基本pom">
+      <created>1649502252398</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649502252398</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
